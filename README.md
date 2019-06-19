@@ -9,4 +9,4 @@ chmod 755 op5_plugin_usage.sh
 ```
 
 >Tested on CentOS6 and CentOS7.<br/>
->Enviroment with 30k services took approx 10sec runtime
+>Environment with 30k services took approx 10sec runtime
