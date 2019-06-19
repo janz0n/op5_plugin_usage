@@ -20,4 +20,4 @@ done
 # --- Output as csv --- 
 echo "PLUGIN,SVC_COUNT" > op5_plugin_usage.csv
 # merge plugin fields and sum value in second field.
-echo "$LIST" | awk '{arr[$1]+=$2;} END {for (i in arr) print i","arr[i]}' | sort -t, -n -r -k2 >> op5_plugin_usage.csv
+echo "$LIST" | awk '{arr[$1]+=$2;} END {for (i in arr) print i","arr[i]}' | sort -t, -n -r -k2 >> op5_plugin_usage.csv && echo "op5_plugin_usage.csv created successfully!"
